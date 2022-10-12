@@ -1,0 +1,16 @@
+<LinearLayout
+    android:background="#000"
+    android:id="@+id/maincontainer"
+    android:layout_width="192px"
+    android:layout_height="96px"
+    android:screenOrientation="portrait"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+   <TextView
+       android:id="@+id/weatext"
+       android:gravity="center"
+       android:textSize="14px"
+       android:lineSpacingExtra="5px"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" />
+</LinearLayout>

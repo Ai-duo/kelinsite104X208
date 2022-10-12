@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:screenOrientation="portrait"
+    android:orientation="vertical">
+
+        <TextView
+            android:textColor="#ff0"
+            android:text="温度:/℃\n湿度:/%\n雨量:/mm"
+            android:id="@+id/rightText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="9px"
+            android:textSize="14px" />
+       <!-- <TextView
+            android:text= "风速:/m/s\n风向:/气压:/hPa"
+            android:textColor="#f00"
+            android:id="@+id/leftText"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:gravity="center_vertical"
+            android:lineSpacingExtra="5px"
+            android:textSize="14px" />
+        />-->
+
+
+</LinearLayout>
+
